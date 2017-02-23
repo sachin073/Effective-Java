@@ -13,7 +13,7 @@ public class OverLoad {
 
 
     public static void print(String o){
-        System.out.print("Object called "+o);
+        System.out.print("Object called  string "+o);
     }
 
 
