@@ -10,7 +10,6 @@ public class TestClass {
         ChildClass c =new ChildClass();
 
         c.makerSuper();
-
         s.print();
         c.print();
         try {

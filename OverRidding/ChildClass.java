@@ -12,6 +12,9 @@ public class ChildClass extends SupremeClass{
     }
 
     public static void print(){
+
         System.out.println("called from :::"+new ChildClass().getClass().getName());
     }
+
+
 }

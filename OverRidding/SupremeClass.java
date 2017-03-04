@@ -11,7 +11,6 @@ public class SupremeClass{
         System.out.println("from high supreme");
     }
 
-
     //staic meathod and variable belongs to class so overidding is not supported
     // but overloading is as there is not internal logic between two methods .
     // static call to meathod is like ClassNmae.MethodName
@@ -22,7 +21,5 @@ public class SupremeClass{
     public static void print(String max){
         System.out.println("overRidden class:::: "+new SupremeClass().getClass().getName());
     }
-
-
 
 }

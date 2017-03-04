@@ -46,8 +46,6 @@ public class Tester extends Horse {
         h = (Horse) um;             //valid
         //t =(Tester) h;              //compile valid but give a class cast exception
         //Block 2 ends
-
     }
-
 
 }
