@@ -38,6 +38,6 @@ public class StackAndHeap {
 
         sh.setName(sh,false);
 
-        System.out.println("sh>>>>::"+sh.getName());
+        System.out.println("sh>>>>::"+sh.getName()); //changes are gone to bed
     }
 }
