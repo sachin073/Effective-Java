@@ -15,6 +15,7 @@ public class Tester extends Horse {
 
     }
 
+
     Tester(String string) {          // if above constructor is deleted and only this overloaded version is there
         System.out.println(string);     // then new Tester(); call will throw compile time exception that no meathod found
     }                                   // compiler provide default constructor only in absense of a constructor but remove it if overloaded constructor exists
@@ -32,7 +33,7 @@ public class Tester extends Horse {
 
         Horse horse = new Horse();
         horse.eats();
-
+        horse.eats(new Tester());       //overloaded version of eats called with horse as its nearest to tester in inheritance
         //Block 2 Starts
         // Casting : Down-casting and up-casting.
         //Downcasting only applicatble iFF casting is done to specific same object , that is created by "new"
@@ -47,5 +48,7 @@ public class Tester extends Horse {
         //t =(Tester) h;              //compile valid but give a class cast exception
         //Block 2 ends
     }
+
+
 
 }
